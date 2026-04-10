@@ -4,32 +4,26 @@ user:
   age: 31
   post: millionaire
   skils: 
-    - user
-    - administrator
-    - coffeman
-  place: Moscow
+    - name: user
+      level_ownership: 5
+      description: |
+        "Отличный навык,
+        который позволяет просто жить."
+    - name: coffeman
+      level_ownership: 4
+      description: |
+        "Отличный навык,
+        который позволяет пить много кофе."      
+  place_of_residence:
+    country: "Russian Federation" 
+    city: Moscow
+    strit: Ферганская
+    house_number: "15к1"
+    apartment_number: 9
   pets:
-    - type: cat
-      name: bun
-    - type: mouse
-      name: splinter
-
-skil:
-  name: user
-  level_ownership: 5
-  description: |
-    "Отличный навык,
-    который позволяет просто жить."
-
-place_of_residence:
-  country: "Russian Federation" 
-  city: Moscow
-  strit: Ферганская
-  house_number: "15к1"
-  apartment_number: 9
-
-
-pet:
-  name: bun
-  breed: sreet_terrier
-  isMeows: true
+    - name: bun
+      breed: sreet_terrier
+      isMeows: true
+    - name: mouse
+      breed: sreet_terrier
+      isMeows: false
