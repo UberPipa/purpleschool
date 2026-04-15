@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: short-app
-      image: antonlarichev/short-app:latest
+      image: antonlarichev/short-app
       ports:
         - containerPort: 80
       resources:
