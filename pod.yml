@@ -4,12 +4,14 @@ metadata:
   name: short-app
   labels:
     components: frontend
-  spec:
+
+spec:
+  containers:
     - name: short-app
       image: antonlarichev/short-app:latest
       ports:
         - containerPort: 80
-      resourses:
+      resources:
         limits:
           memory: "128Mi"
           cpu: "1000m"
