@@ -4,7 +4,6 @@ metadata:
   name: short-app
   labels:
     components: frontend
-
 spec:
   containers:
     - name: short-app
